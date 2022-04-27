@@ -1,0 +1,5 @@
+<div class="card-body" [ngClass]="card.isFaceUp ? 'card__face-up' : 'card__face-down'">
+    <span class="card-body-inner" *ngIf="card.isFaceUp">
+        {{card.value}}
+    </span>
+</div>

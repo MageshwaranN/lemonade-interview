@@ -1,0 +1,40 @@
+hr {
+    margin-left: -2.375rem;
+    margin-right: -2.375rem;
+}
+
+.main-container {
+    margin: 2%;
+    border: 1px solid black;
+    padding: 0 2%;
+}
+
+.game-container, .deck-container, .draw-container, .result-container {
+    display: flex;
+}
+
+.deck-container {
+    height: 136px;
+    flex-direction: column;
+}
+
+.items{
+    height: 82px;
+    border-radius: 5px;
+    margin-bottom: -80px;
+}
+
+.game-container {
+    padding: 2% 0;
+    gap: 8%;
+}
+
+.draw-container {
+    gap: 4%;
+}
+
+.result-container {
+    padding: 2%;
+    justify-content: center;
+    gap: 2%;
+}
